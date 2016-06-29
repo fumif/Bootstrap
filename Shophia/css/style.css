@@ -1,0 +1,451 @@
+html {
+  font-family: 'Lato';
+  overflow-x: hidden;
+}
+.bg-lightGrey {
+  background-color: #f2f2f2;
+}
+.topbar-text {
+  font-size: .7rem;
+}
+.nav-divider li {
+  height: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.nav-divider li:before {
+  border-right: 1px solid #000;
+  bottom: 15%;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 15%;
+}
+.nav-divider li:last-child:before {
+  border: 0;
+}
+.main-nav a {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+.navbar-brand {
+  font-family: 'Krinkes Decor PERSONAL USE';
+  font-size: 5.1rem;
+}
+.nav-item a {
+  color: #000;
+}
+.nav-inline .nav-item.nav-item {
+  margin-left: .25rem;
+}
+.nav-inline .nav-link.nav-link {
+  margin-left: .25rem;
+}
+.social-list li {
+  margin: 0;
+  padding: 0;
+}
+.social {
+  border-radius: 50%;
+  border: 2px solid #f0975c;
+  color: #f0975c;
+  display: inline-block;
+  height: 30px;
+  padding-top: 15%;
+  text-align: center;
+  width: 30px;
+}
+.dropdown-toggle {
+  border-radius: 0;
+}
+.dropdown-menu {
+  border-radius: 0;
+  left: auto;
+  right: -35px;
+}
+.carousel-indicators li {
+  border-radius: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  background-color: #fff;
+  border-color: #b2b2b2;
+  background-color: #b2b2b2;
+}
+.carousel-indicators .active {
+  background-color: #000;
+}
+.carousel-example-with-caption {
+  overflow: hidden;
+  width: 90%;
+}
+.carousel-caption {
+  border: 3px solid #fff;
+  font-family: 'Lato Bold';
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: none;
+  top: 150px;
+  width: 250px;
+}
+.carousel-caption p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.carousel-caption p:last-child {
+  color: #000;
+  font-size: 1.5rem;
+  padding: 0;
+}
+.carousel-caption h2 {
+  color: #000;
+  font-size: 3.25rem;
+  font-weight: 600;
+}
+.carousel-caption:before {
+  border: 1px solid #fff;
+  bottom: 0;
+  content: "";
+  left: 0;
+  margin: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.carousel-btn {
+  display: block;
+  margin: 80px auto 0;
+  width: 190px;
+  height: 53px;
+  background-color: #f09d66;
+  border-radius: 0;
+  font-size: 1.25rem;
+}
+ul.service li {
+  color: #fff;
+  background-color: #d9bf8f;
+}
+ul.service li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+ul.service li i {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+ul.service li div {
+  display: block;
+  float: left;
+}
+ul.service li div h3 {
+  font-size: 1.25rem;
+}
+ul.service li div p {
+  font-size: .65rem;
+}
+ul.service li:nth-child(2) {
+  background-color: #000;
+}
+.title {
+  font: 1.5rem 'Playfair Display';
+  font-weight: 700;
+  font-style: italic;
+}
+.title span {
+  display: inline-block;
+  position: relative;
+}
+.title span:before,
+.title span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border-bottom: 1px solid #eaeaea;
+  width: 200px;
+}
+.title span:before {
+  left: 100%;
+  margin-left: 30px;
+}
+.title span:after {
+  right: 100%;
+  margin-right: 30px;
+}
+.card {
+  border: none;
+  border-radius: 0;
+  position: relative;
+}
+.card .card-img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+}
+.card .btn {
+  border-radius: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15%;
+  width: 110px;
+  height: 42px;
+  background-color: #f0975c;
+  color: #fff;
+}
+.summerCollection {
+  border: 1px solid #eaeaea;
+  padding: 0;
+}
+.summerCollection .cards {
+  position: relative;
+  margin: 15px 0;
+}
+.summerCollection .cards img {
+  width: 100%;
+}
+.summerCollection .cards .btn {
+  position: absolute;
+  bottom: 1px;
+  font-size: .85rem;
+  line-height: 50px;
+  background-color: transparent;
+  border-bottom: 45px solid #000;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  width: 198px;
+  height: 0;
+}
+.summerCollection .cards .btn:hover {
+  border-bottom-color: #f0975c;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  background-color: #feab12;
+  font-size: 1.375rem;
+  color: #fff;
+  position: relative;
+}
+.circle:after {
+  content: "%";
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: -2px;
+  right: 5px;
+  font-size: .65rem;
+}
+.customer {
+  display: block;
+  height: 100%;
+  background-color: #d9bf8f;
+}
+.customer img {
+  margin: 0;
+}
+.customer .text {
+  margin: 130px 0 0;
+  display: block;
+  float: left;
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+.customer .text p.lead {
+  font-size: 1.125rem;
+  color: #fff;
+}
+.customer .row {
+  display: none;
+}
+.text-muted {
+  font-family: 'Lato';
+  font-style: normal;
+  color: #7f7e7e;
+}
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+  background-color: #141414;
+}
+footer ul li h3 {
+  font: 1rem 'Lato', Arial, sans-serif;
+  color: #fff;
+}
+footer ul li ul li {
+  font-size: 14px;
+}
+footer ul li ul li a.text-muted:hover {
+  color: #fff;
+  text-decoration: none;
+}
+footer ul li.connected {
+  color: #fff;
+}
+footer ul li.connected span {
+  margin: 0 5px;
+  font-family: 'Playfair Display';
+  font-weight: 100;
+  font-style: italic;
+}
+footer ul .input-group {
+  padding: 5px;
+  border-radius: 0;
+  border: 1px solid #484848;
+}
+footer ul .input-group .form-control,
+footer ul .input-group .input-group-addon {
+  border-radius: 0;
+}
+footer ul .input-group .form-control.bg-inverse,
+footer ul .input-group .input-group-addon.bg-inverse {
+  border: 0;
+}
+footer ul .input-group .form-control {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: .8rem;
+}
+footer ul .input-group .form-control::-webkit-input-placeholder {
+  color: #7f7e7e;
+  font-size: .8rem;
+}
+footer ul .input-group .input-group-addon {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 33px;
+  font: 0.7rem 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+footer ul .input-group .btn {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+footer ul#social-button li {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+footer ul#social-button li a {
+  color: #000;
+}
+footer ul#social-button li a i {
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 0;
+  padding-top: 50%;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+footer ul#social-button li a i:hover {
+  background-color: #000;
+  border: 1px solid #fff;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+footer ul#social-button li a:hover {
+  color: #fff;
+}
+footer ul#social-button li a:active {
+  color: #000;
+}
+footer hr {
+  border-top: 1px solid #484848;
+  text-align: center;
+}
+footer hr:after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 10px solid #484848;
+}
+footer .copyright {
+  font-size: .75rem;
+  color: #484848;
+}
+footer ul#cc a:hover {
+  color: #fff;
+}
+footer .page-up {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+footer .page-up .scrollButton {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
+footer .page-up .scrollButton img {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+@media only screen and (max-width: 992px) {
+  .customer .row {
+    display: block;
+  }
+  li.connected {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  li.connected #social-button li i {
+    width: 45px;
+    height: 45px;
+  }
+  li.connected .subscribe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-divider li {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .nav-divider li:before {
+    border: 0;
+  }
+  .main-nav {
+    margin-bottom: 30px;
+  }
+  .main-nav a.nav-item.nav-link.active {
+    margin: 0;
+    width: 25%;
+    text-align: center;
+  }
+  .customer .text:last-child {
+    width: 100%;
+    text-align: right;
+  }
+}
